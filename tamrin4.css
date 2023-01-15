@@ -2,7 +2,6 @@ body{
     background: rgb(157,217,194);
     background: linear-gradient(43deg, rgb(126, 242, 198) 0%, rgb(120, 140, 126) 95%); 
 }
-
 label {
     display: block;
 }
@@ -41,7 +40,7 @@ label {
     padding: 5px;
     font-size: 1.1em;
     border-radius: 10px;
-    max-width: 100%;
+    width: 100%;
 }
 .gender_title {
     font-size: 1em;
@@ -71,6 +70,7 @@ label {
 #age , #num , #pass{
     border-radius: 10px;
     padding: 5px;
+    width: 100%;
     margin-bottom: 12px;
 }
 .submit {
@@ -79,7 +79,7 @@ label {
     font-size: 1.1em;
     color: rgb(5, 59, 5);
     padding: 10px;
-    width: 100%;
+    width: 40%;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #54996ccf;
 }
