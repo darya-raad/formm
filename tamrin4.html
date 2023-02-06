@@ -4,13 +4,13 @@
     <link rel="stylesheet" type="text/css" href="tamrin4.css">
   </head>
   
-  <body  class="home">
+  <body class="home">
     <div class="form_cnt">
       <form action="#" class="form">
         <label for="fname" class="fname">First name:</label>
-        <input type="text" id="fname" name="fname" placeholder="please inter your first name">
+        <input type="text" id="fname" name="fname" placeholder="please inter your first name" autocomplete="on" required>
         <label for="lname" class="lname">Last name:</label>
-        <input type="text" id="lname" name="lname" placeholder="please inter your last name">
+        <input type="text" id="lname" name="lname" placeholder="please inter your last name" autocomplete="on">
         <div class="cont">
           <p class="gender_title">Gender:</p>
           <input type="radio" id="female" name="gender" value="female">
@@ -25,7 +25,9 @@
         <label for="num" class="num">Phone Number:</label>
         <input type="tel" id="num" name="num">
         <label for="pass" class="pass">Password:</label>
-        <input type="password" id="pass" name="pass" minlength="8">
+        <input type="password" id="pass" name="pass" minlength="8" maxlength="12" required>
+        <label for="organization">Organization:</label>
+        <input type="text" name="org-name" id="orgname" autocomplete="off">
         <input type="submit" value="Send" class="submit">
       </form>
     </div>
