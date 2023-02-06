@@ -34,10 +34,10 @@ label {
 .fname , .lname{
     font-size: 1em;
 }
-
+/* 
 #fname {
     text-transform: lowercase;
-}
+} */
 
 #fname , #lname{
     color: #555454;
